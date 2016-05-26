@@ -10,13 +10,17 @@
   ],
   "require": {
     "wpackagist-plugin/magic-fields-2": "*",
-    "wisquimas/funciones-basicas" : "dev-master"
+    "wisquimas/funciones-basicas" : "dev-master",
+    "wisquimas/wordpress-template" : "dev-master"
   },
   "extra": {
     "wordpress-install-dir": "wp",
     "installer-paths": {
       "wp/wp-content/plugins/{$name}/": [
         "type:wordpress-plugin"
+      ],
+      "wp/wp-content/themes/{$name}/": [
+        "type:wordpress-theme"
       ]
     }
   }
