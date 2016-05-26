@@ -12,6 +12,12 @@
     "wpackagist-plugin/magic-fields-2": "*"
   },
   "extra": {
-    "wordpress-install-dir": "wp"
+    "wordpress-install-dir": "wp",
+    "installer-paths": {
+      "wp/wp-content/plugins/{$name}/": [
+        "wpackagist-plugin/magic-fields-2",
+        "fancyguy/wordpress-monolog"
+      ]
+    }
   }
 }
