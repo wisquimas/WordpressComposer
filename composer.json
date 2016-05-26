@@ -1,5 +1,7 @@
 {
   "name": "wisquimas/wordpress-composer",
+  "description": "Instalacion completa de un sitio en wordpress",
+  "license": "MIT",
   "repositories": [
     {
       "type": "composer",
