@@ -1,0 +1,17 @@
+{
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "http://wpackagist.org"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "johnpbloch/wordpress": "*",
+    "fancyguy/wordpress-monolog": "dev-master",
+    "wpackagist-plugin/magic-fields-2": "*"
+  },
+  "extra": {
+    "wordpress-install-dir": "wp"
+  }
+}
