@@ -13,7 +13,8 @@
     "wpackagist-plugin/rest-api": "dev-master",
     "wpackagist-plugin/wordpress-seo": "3.*",
     "wisquimas/funciones-basicas" : "dev-master",
-    "wisquimas/wordpress-template" : "dev-master"
+    "wisquimas/wordpress-template" : "dev-master",
+    "wisquimas/valleysofsorcery" : "dev-master"
   },
   "extra": {
     "wordpress-install-dir": "wp",
