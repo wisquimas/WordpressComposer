@@ -22,7 +22,7 @@
       "wp/wp-content/plugins/{$name}/": [
         "type:wordpress-plugin"
       ],
-      "themes/{$name}/": [
+      "wp/wp-content/themes/{$name}/": [
         "type:wordpress-theme"
       ]
     }
